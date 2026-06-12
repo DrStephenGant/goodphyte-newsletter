@@ -1,0 +1,43 @@
+<svg viewBox="0 0 820 470" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Iron deficiency without anemia: ferritin falls before hemoglobin</title>
+  <desc>A chart showing iron stores (ferritin) declining steadily while hemoglobin stays normal until late. The middle zone - low ferritin with normal hemoglobin - is iron deficiency without anemia, where performance dips but a standard blood panel still reads normal.</desc>
+  <style>
+    text{font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;}
+    .title{font-size:23px;font-weight:700;fill:#22565c;}
+    .sub{font-size:13px;fill:#6f6a62;}
+    .cap{font-size:12px;fill:#6f6a62;}
+    .ax{font-size:11px;fill:#8a857c;}
+    .lg{font-size:12px;fill:#6f6a62;}
+    .foot{font-size:12px;font-weight:600;fill:#22565c;}
+  </style>
+  <text class="title" x="410" y="34" text-anchor="middle">The test that reads &#8220;normal&#8221;</text>
+  <text class="sub" x="410" y="56" text-anchor="middle">Your iron stores empty long before anemia shows on a blood panel</text>
+
+  <!-- chart frame -->
+  <rect x="80" y="92" width="680" height="238" rx="10" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+  <!-- IDNA zone band -->
+  <rect x="430" y="92" width="150" height="238" fill="#f36f21" opacity="0.12"/>
+  <text class="ax" x="505" y="116" text-anchor="middle" fill="#c4571a" style="font-weight:700">IDNA zone</text>
+  <!-- hemoglobin (stays normal, then late drop) -->
+  <polyline points="92,150 470,150 580,150 700,300 748,316" fill="none" stroke="#a5b4b1" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- ferritin (declines first) -->
+  <polyline points="92,120 300,180 470,232 580,266 748,308" fill="none" stroke="#22565c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- axis labels -->
+  <text class="ax" x="92" y="350" text-anchor="start">full stores</text>
+  <text class="ax" x="748" y="350" text-anchor="end">depleted</text>
+  <text class="ax" x="420" y="350" text-anchor="middle">iron status over time &#8594;</text>
+
+  <!-- callout in zone -->
+  <text class="cap" x="505" y="210" text-anchor="middle" style="font-weight:700;fill:#c4571a">low ferritin,</text>
+  <text class="cap" x="505" y="226" text-anchor="middle" style="font-weight:700;fill:#c4571a">&#8220;normal&#8221; CBC</text>
+
+  <!-- legend -->
+  <line x1="120" y1="384" x2="150" y2="384" stroke="#22565c" stroke-width="4" stroke-linecap="round"/>
+  <text class="lg" x="158" y="388">Ferritin (iron stores) &#8212; falls first</text>
+  <line x1="470" y1="384" x2="500" y2="384" stroke="#a5b4b1" stroke-width="4" stroke-linecap="round"/>
+  <text class="lg" x="508" y="388">Hemoglobin &#8212; normal until late</text>
+
+  <line x1="24" y1="414" x2="796" y2="414" stroke="#dadfd0" stroke-width="1"/>
+  <text class="foot" x="24" y="440">Ask for a ferritin test &#8212; not just hemoglobin.</text>
+  <text class="cap" x="796" y="440" text-anchor="end" style="font-weight:600;fill:#22565c">Sponsored by Goodphyte &#183; goodphyte.com</text>
+</svg>
