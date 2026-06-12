@@ -1,0 +1,60 @@
+<svg viewBox="0 0 820 460" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Hard training raises hepcidin, which narrows iron absorption</title>
+  <desc>Three steps: a hard training block raises hepcidin, the iron-gatekeeper hormone, which narrows the gut's iron-absorption gate so less iron from food gets in. Phytase maximizes what is absorbed while the gate is open.</desc>
+  <style>
+    text{font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;}
+    .title{font-size:23px;font-weight:700;fill:#22565c;}
+    .sub{font-size:13px;fill:#6f6a62;}
+    .cap{font-size:12px;fill:#6f6a62;}
+    .stage{font-size:13px;font-weight:700;fill:#22565c;letter-spacing:.4px;}
+    .small{font-size:11px;fill:#6f6a62;}
+    .bar{font-size:14px;font-weight:700;fill:#fff;}
+    .foot{font-size:12px;font-weight:600;fill:#22565c;}
+  </style>
+  <text class="title" x="410" y="34" text-anchor="middle">Why your biggest weeks absorb the least iron</text>
+  <text class="sub" x="410" y="56" text-anchor="middle">Hard training spikes hepcidin &#8212; the hormone that gates iron absorption</text>
+
+  <defs>
+    <marker id="as" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#6f6a62"/></marker>
+  </defs>
+
+  <!-- step 1: hard training -->
+  <rect x="24" y="92" width="212" height="224" rx="12" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+  <text class="stage" x="130" y="118" text-anchor="middle">HARD TRAINING</text>
+  <rect x="92"  y="210" width="20" height="48"  rx="3" fill="#22565c"/>
+  <rect x="120" y="184" width="20" height="74"  rx="3" fill="#22565c"/>
+  <rect x="148" y="156" width="20" height="102" rx="3" fill="#22565c"/>
+  <text class="small" x="130" y="284" text-anchor="middle">rising load &amp; intensity</text>
+
+  <line x1="244" y1="204" x2="296" y2="204" stroke="#6f6a62" stroke-width="2" marker-end="url(#as)"/>
+
+  <!-- step 2: hepcidin up -->
+  <rect x="304" y="92" width="212" height="224" rx="12" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+  <text class="stage" x="410" y="118" text-anchor="middle">HEPCIDIN &#8593;</text>
+  <line x1="410" y1="252" x2="410" y2="160" stroke="#f36f21" stroke-width="10" stroke-linecap="round"/>
+  <path d="M410,150 l-14,18 M410,150 l14,18" stroke="#f36f21" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text class="small" x="410" y="276" text-anchor="middle">the iron-gatekeeper hormone</text>
+  <text class="small" x="410" y="294" text-anchor="middle" style="fill:#c4571a">peaks hours after a hard session</text>
+
+  <line x1="524" y1="204" x2="576" y2="204" stroke="#6f6a62" stroke-width="2" marker-end="url(#as)"/>
+
+  <!-- step 3: gate narrows -->
+  <rect x="584" y="92" width="212" height="224" rx="12" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+  <text class="stage" x="690" y="118" text-anchor="middle">IRON GATE NARROWS</text>
+  <!-- blocked (sage) above the gate -->
+  <circle cx="660" cy="150" r="9" fill="#a5b4b1"/><circle cx="690" cy="146" r="9" fill="#a5b4b1"/><circle cx="720" cy="150" r="9" fill="#a5b4b1"/>
+  <!-- funnel/gate -->
+  <path d="M626,170 L676,212 M754,170 L704,212" stroke="#6e807d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- few through (orange) -->
+  <circle cx="690" cy="240" r="9" fill="#f36f21"/>
+  <path d="M690,226 v22" stroke="#f36f21" stroke-width="2"/>
+  <text class="small" x="690" y="284" text-anchor="middle">less iron from food gets in</text>
+
+  <!-- phytase bar -->
+  <rect x="24" y="332" width="772" height="40" rx="20" fill="#f36f21"/>
+  <text class="bar" x="410" y="358" text-anchor="middle">Phytase maximizes what you absorb while the gate is open &#8594;</text>
+
+  <line x1="24" y1="410" x2="796" y2="410" stroke="#dadfd0" stroke-width="1"/>
+  <text class="foot" x="24" y="436">Support energy availability &#8212; under-fueling pushes hepcidin higher.</text>
+  <text class="cap" x="796" y="436" text-anchor="end" style="font-weight:600;fill:#22565c">Sponsored by Goodphyte &#183; goodphyte.com</text>
+</svg>
