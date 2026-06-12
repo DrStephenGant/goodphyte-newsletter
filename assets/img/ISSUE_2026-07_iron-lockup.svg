@@ -1,0 +1,62 @@
+<svg viewBox="0 0 820 500" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>The phytate-iron lockup: how phytase frees bound minerals</title>
+  <desc>Three stages. One: phytate in food binds iron, zinc and magnesium so they are not absorbed. Two: the enzyme phytase cleaves phytate. Three: the freed minerals are absorbed across the gut lining.</desc>
+  <style>
+    svg{ --t:#1b1b1a; --s:#6b6b6b; --b:#dcdcd6; --card:#f7f7f4; --green:#1f7a1f; --amber:#9a6b00; }
+    .title{font:700 23px ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;fill:var(--t);}
+    .sub{font:400 13px ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;fill:var(--s);}
+    .stage{font:700 13px ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;letter-spacing:.5px;}
+    .cap{font:400 12px ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;fill:var(--s);}
+    .ion{font:700 13px ui-sans-serif;fill:#fff;}
+    .ionsm{font:700 10px ui-sans-serif;fill:#fff;}
+    .pill{font:700 12px ui-sans-serif;fill:#fff;}
+    .leg{font:400 12px ui-sans-serif;fill:var(--s);}
+    .foot{font:600 12px ui-sans-serif;fill:var(--t);}
+    .amber{fill:var(--amber);} .green{fill:var(--green);}
+  </style>
+  <text class="title" x="410" y="34" text-anchor="middle">The phytate&#8211;iron lockup</text>
+  <text class="sub" x="410" y="56" text-anchor="middle">Why the iron on your plate doesn&#8217;t always reach your legs</text>
+  <defs>
+    <marker id="ah" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="var(--s)"/>
+    </marker>
+  </defs>
+  <rect x="24" y="78" width="220" height="266" rx="12" fill="var(--card)" stroke="var(--b)" stroke-width="1.5"/>
+  <text class="stage amber" x="134" y="104" text-anchor="middle">LOCKED IN FOOD</text>
+  <polygon points="134,128 188,160 188,224 134,256 80,224 80,160" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="2 6" stroke-linejoin="round"/>
+  <text class="cap amber" x="134" y="150" text-anchor="middle" style="font-weight:700">phytate</text>
+  <circle cx="134" cy="196" r="21" class="amber"/><text class="ion" x="134" y="201" text-anchor="middle">Fe</text>
+  <circle cx="106" cy="232" r="13" class="amber"/><text class="ionsm" x="106" y="236" text-anchor="middle">Zn</text>
+  <circle cx="162" cy="232" r="13" class="amber"/><text class="ionsm" x="162" y="236" text-anchor="middle">Mg</text>
+  <text class="cap" x="134" y="300" text-anchor="middle">Phytate binds iron, zinc</text>
+  <text class="cap" x="134" y="316" text-anchor="middle">&amp; magnesium &#8212; unabsorbed</text>
+  <line x1="250" y1="205" x2="292" y2="205" stroke="var(--s)" stroke-width="2" marker-end="url(#ah)"/>
+  <text class="cap" x="271" y="196" text-anchor="middle" style="font-weight:700">phytase</text>
+  <rect x="300" y="78" width="220" height="266" rx="12" fill="var(--card)" stroke="var(--b)" stroke-width="1.5"/>
+  <text class="stage green" x="410" y="104" text-anchor="middle">PHYTASE ACTS</text>
+  <polyline points="404,128 356,160 356,224 404,256" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="2 6" stroke-linejoin="round"/>
+  <polyline points="416,128 464,160 464,224 416,256" fill="none" stroke="var(--amber)" stroke-width="3" stroke-dasharray="2 6" stroke-linejoin="round"/>
+  <rect x="372" y="178" width="76" height="34" rx="17" class="green"/>
+  <text class="pill" x="410" y="200" text-anchor="middle">phytase</text>
+  <path d="M410,150 l-6,-10 M410,150 l6,-10" stroke="var(--green)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M410,238 l-6,10 M410,238 l6,10" stroke="var(--green)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text class="cap" x="410" y="300" text-anchor="middle">The enzyme cleaves</text>
+  <text class="cap" x="410" y="316" text-anchor="middle">phytate, releasing minerals</text>
+  <line x1="526" y1="205" x2="568" y2="205" stroke="var(--s)" stroke-width="2" marker-end="url(#ah)"/>
+  <text class="cap" x="547" y="196" text-anchor="middle" style="font-weight:700">absorb</text>
+  <rect x="576" y="78" width="220" height="266" rx="12" fill="var(--card)" stroke="var(--b)" stroke-width="1.5"/>
+  <text class="stage green" x="686" y="104" text-anchor="middle">ABSORBED</text>
+  <line x1="596" y1="246" x2="776" y2="246" stroke="var(--green)" stroke-width="2" stroke-dasharray="5 4"/>
+  <text class="cap" x="600" y="262" style="font-size:10px">gut lining</text>
+  <circle cx="660" cy="180" r="21" class="green"/><text class="ion" x="660" y="185" text-anchor="middle">Fe</text>
+  <circle cx="706" cy="170" r="13" class="green"/><text class="ionsm" x="706" y="174" text-anchor="middle">Zn</text>
+  <circle cx="726" cy="200" r="13" class="green"/><text class="ionsm" x="726" y="204" text-anchor="middle">Mg</text>
+  <path d="M660,232 v-18 M706,232 v-30 M726,232 v-12" stroke="var(--green)" stroke-width="2" marker-end="url(#ah)" fill="none"/>
+  <text class="cap" x="686" y="300" text-anchor="middle">Minerals freed and</text>
+  <text class="cap" x="686" y="316" text-anchor="middle">taken up to fuel performance</text>
+  <circle cx="34" cy="374" r="7" class="amber"/><text class="leg" x="46" y="378">bound / locked</text>
+  <circle cx="150" cy="374" r="7" class="green"/><text class="leg" x="162" y="378">freed / absorbed</text>
+  <line x1="24" y1="404" x2="796" y2="404" stroke="var(--b)" stroke-width="1"/>
+  <text class="foot" x="24" y="430">The iron only counts if you absorb it.</text>
+  <text class="cap" x="796" y="430" text-anchor="end" style="font-weight:600">Sponsored by Goodphyte &#183; goodphyte.com</text>
+</svg>
