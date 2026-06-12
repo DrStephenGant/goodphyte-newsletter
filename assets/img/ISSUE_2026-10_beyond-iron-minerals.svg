@@ -1,0 +1,55 @@
+<svg viewBox="0 0 820 460" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Beyond iron: phytate locks four minerals runners need</title>
+  <desc>Four mineral cards - iron for oxygen transport, zinc for immunity and recovery, magnesium for energy and muscle, calcium for bone - all bound by phytate, and freed by phytase for absorption.</desc>
+  <style>
+    text{font-family:ui-sans-serif,system-ui,Segoe UI,Roboto,Arial;}
+    .title{font-size:23px;font-weight:700;fill:#22565c;}
+    .sub{font-size:13px;fill:#6f6a62;}
+    .cap{font-size:12px;fill:#6f6a62;}
+    .mname{font-size:15px;font-weight:700;fill:#22565c;}
+    .role{font-size:11.5px;fill:#6f6a62;}
+    .ion{font-size:15px;font-weight:700;fill:#fff;}
+    .banner{font-size:13px;font-weight:700;}
+    .bar{font-size:14px;font-weight:700;fill:#fff;}
+    .foot{font-size:12px;font-weight:600;fill:#22565c;}
+  </style>
+  <text class="title" x="410" y="34" text-anchor="middle">Beyond iron</text>
+  <text class="sub" x="410" y="56" text-anchor="middle">The same phytate that binds iron also locks zinc, magnesium &amp; calcium</text>
+
+  <text class="banner" x="410" y="86" text-anchor="middle" fill="#6e807d">LOCKED BY PHYTATE</text>
+
+  <!-- 4 cards -->
+  <g>
+    <rect x="24"  y="98" width="180" height="208" rx="12" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+    <circle cx="114" cy="150" r="22" fill="#a5b4b1"/><text class="ion" x="114" y="156" text-anchor="middle">Fe</text>
+    <text class="mname" x="114" y="206" text-anchor="middle">Iron</text>
+    <text class="role" x="114" y="232" text-anchor="middle">oxygen transport</text>
+    <text class="role" x="114" y="250" text-anchor="middle">&amp; VO&#8322; power</text>
+
+    <rect x="218" y="98" width="180" height="208" rx="12" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+    <circle cx="308" cy="150" r="22" fill="#a5b4b1"/><text class="ion" x="308" y="156" text-anchor="middle">Zn</text>
+    <text class="mname" x="308" y="206" text-anchor="middle">Zinc</text>
+    <text class="role" x="308" y="232" text-anchor="middle">immunity &amp;</text>
+    <text class="role" x="308" y="250" text-anchor="middle">recovery</text>
+
+    <rect x="412" y="98" width="180" height="208" rx="12" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+    <circle cx="502" cy="150" r="22" fill="#a5b4b1"/><text class="ion" x="502" y="156" text-anchor="middle">Mg</text>
+    <text class="mname" x="502" y="206" text-anchor="middle">Magnesium</text>
+    <text class="role" x="502" y="232" text-anchor="middle">energy (ATP)</text>
+    <text class="role" x="502" y="250" text-anchor="middle">&amp; muscle</text>
+
+    <rect x="606" y="98" width="180" height="208" rx="12" fill="#f7f5f3" stroke="#dadfd0" stroke-width="1.5"/>
+    <circle cx="696" cy="150" r="22" fill="#a5b4b1"/><text class="ion" x="696" y="156" text-anchor="middle">Ca</text>
+    <text class="mname" x="696" y="206" text-anchor="middle">Calcium</text>
+    <text class="role" x="696" y="232" text-anchor="middle">bone strength</text>
+    <text class="role" x="696" y="250" text-anchor="middle">under load</text>
+  </g>
+
+  <!-- phytase action bar -->
+  <rect x="24" y="324" width="762" height="40" rx="20" fill="#f36f21"/>
+  <text class="bar" x="410" y="350" text-anchor="middle">phytase frees all four for absorption &#8593;</text>
+
+  <line x1="24" y1="404" x2="796" y2="404" stroke="#dadfd0" stroke-width="1"/>
+  <text class="foot" x="24" y="430">Eating minerals isn&#8217;t the same as absorbing them.</text>
+  <text class="cap" x="796" y="430" text-anchor="end" style="font-weight:600;fill:#22565c">Sponsored by Goodphyte &#183; goodphyte.com</text>
+</svg>
